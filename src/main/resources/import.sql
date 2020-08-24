@@ -5,7 +5,7 @@ INSERT INTO Player(player_id,username,age) VALUES (nextval('player_player_id_seq
 
 INSERT INTO Problem(problem_id,problems,player_id_fk) VALUES (nextval('problem_problem_id_seq'),[],2);
 
-INSERT INTO SolutionStep(solution_step_id,ordering,x,y,solution_id_fk) VALUES (nextval('solutionstep_solution_step_id_seq'),1,4,4,1);
+INSERT INTO SolutionStep(solution_step_id,onOff,ordering,solution_id_fk) VALUES (nextval('solutionstep_solution_step_id_seq'),1,4,4,1);
 
 
 
